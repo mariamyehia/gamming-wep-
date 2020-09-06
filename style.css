@@ -1,0 +1,282 @@
+body {
+    margin: 0px;
+padding: 0px;
+}
+*{
+    font-family: arial;
+}
+div.maincontent{
+    height: 690px;
+    background-image: url('imges/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.navbar{
+    display: flex;
+justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.6)
+}
+div.navbar a {
+    color: white;
+    margin: 30px
+}
+div.navbar a.join{
+    background-color: transparent;
+   color: fuchsia;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid pink ;
+   }
+div.details{
+text-align: center;
+   padding-top: 120px;
+    color: wheat;
+    
+}
+div.details button{
+    color:fuchsia;
+      padding:15px;
+    border-radius: 8px;
+    border: 2px solid fuchsia ;
+    
+}
+div.background{
+    height: 1000px;
+    background-image: url(imges/777.jpg);
+margin-top: -70px;
+    background-size: cover;
+}
+div.backdetiles{
+  
+    
+    margin: auto; 
+   text-align: center;
+    align-items: center;
+       display: flex;
+justify-content: space-around;
+}
+div.items img {
+    border: 2px solid black;
+    width:200px;
+    height: 200px;
+    border-radius:200px;
+    
+    
+}
+div.h1{
+ text-align: center;
+  padding-top: 10px;   
+}
+div.maingame{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 60%;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    line-height: 20px;
+}
+div.maingame button{   
+ padding: 30px;
+    border-radius: 8px;
+        color: white;
+    border: 2px;
+    background-color: aqua;
+}
+div.maingame img{
+    margin-right: -150px;
+    border-radius:20px;
+}
+div.postscontent {
+    background-image: url(imges/44.jpg);
+    background-size: cover;
+    height: 1500px;
+    margin-top: -21px;
+        
+}
+div.lines{
+    text-align: center;
+    color: white;
+   padding-top: 30px;
+    line-height: 20px;
+   }
+    
+
+div.posts{
+    display:flex;
+    width:85%;
+    margin: auto;
+    justify-content: space-around;
+        align-items: center;
+}
+div.post{
+    margin: 30px;
+    color: white;
+    background-color: silver;
+    border-radius: 10px;
+   
+}
+ div.post h2,div.post h3,div.post p{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+div.post h3,div.post p{
+    display:inline-block;
+}
+div.post1 div.img,div.post2 div.img,div.post3 div.img{
+    background-image: url('imges/post1.jpg');
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+div.post2 div.img  {
+    background-image: url('imges/post2.jpg');
+} 
+div.post3 div.img{
+    background-image: url('imges/post3.jpg');
+}
+
+div.testis{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-around;
+    align-items:center;
+}
+div.test h1{
+    text-align :center;
+    margin-bottom: 50px;
+    color: white;
+}
+div.testi{
+    margin:20px;
+    text-align: center;
+background-color: silver;
+    border-radius: 8px;
+    color: white;
+}
+
+
+div.testi1 div.img,div.testi2 div.img{
+    width:100px;
+        background-color: white;
+    height: 100px;
+    margin: auto;
+    border-radius: 100px;
+    margin-top: -50px;
+     background-image: url('imges/woman.png');
+    background-size: cover;
+    background-position: center;
+        border: 1px solid silver;     
+}
+
+div.testi2 div.img{
+    background-image: url('imges/doctor.png');}
+
+
+div.pricing h2{
+    text-align: center;
+    color: white;
+}
+div.prices{
+    display:flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+div.price{
+    width:30%;
+    background-color: silver;
+    color:white;
+    margin: 8px;
+    padding-bottom: 15px;
+    padding-bottom:15px ;
+    border-radius: 8px;
+    
+}
+div.price button{
+    padding: 15px;
+    border-radius: 8px;
+       border:2px solid white;
+   color: white;
+    background-color: sandybrown; 
+    
+}
+div.planrice{
+    background-color: sandybrown;
+    padding-bottom: 15px;
+    padding-top: :15px;
+       
+}
+div.planrice{
+    margin: 0;
+}
+.background2{
+    background-color: antiquewhite;
+    height: 800px;
+    
+    
+   
+}
+div.joinform{
+    display: flex;
+    justify-content: center;
+   margin: auto;
+    width:70%;
+    border-radius: 10px;
+     border: 5px solid white;
+    margin-top: 50px;
+   
+    
+}
+     
+div.joinform div.form, div.joinform div.image{
+    width:50%;
+     
+}
+div.joinform div.image{
+    background-image: url('imges/hh.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+   
+}
+form input, form button{
+    padding:10px;
+    font-size: 16px;
+    border: .5px solid aqua;
+    border-radius: 5px;
+    display: block;
+    margin: 10px;
+}
+form{
+    width;60px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    margin: 15PX;
+   
+}
+form button{
+    color:white;
+}
+.footer{
+    color: white;
+    background-color:lightblue;
+    text-align: center;
+    padding: 10px;}
+.home{
+   background-color:darkgray; 
+}
+    
